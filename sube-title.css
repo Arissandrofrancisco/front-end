@@ -1,0 +1,14 @@
+@import url(/Style/root.css);
+
+.sube-titulo {
+    padding: 18px;
+}
+
+.sube-titulo-link {
+
+    color: var(--color-subs);
+    font-family: var(--font-main);
+    font-size: var(--font-size-subes);
+    text-transform: uppercase;
+
+}

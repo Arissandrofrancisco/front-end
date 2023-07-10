@@ -1,0 +1,30 @@
+@import url(/Style/root.css);
+
+.nav-bar {
+    width: 100vw;
+}
+
+.nav-bar-container {
+    background-color: var(--color-bg-secundary);
+    padding: 14px;
+
+}
+
+.nav-bar-lista {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+
+}
+
+.nav-bar-links {
+    color: var(--color-default);
+    font-family: var(--font-links);
+    font-size: var(--font-size-links);
+    margin: 10px;
+}
+
+.nav-bar-links:hover {
+    text-decoration: underline;
+}

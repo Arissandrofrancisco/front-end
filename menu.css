@@ -1,0 +1,35 @@
+ @import url(/Style/root.css);
+
+ * {
+     box-sizing: border-box;
+ }
+
+ .menu-lista {
+     display: flex;
+     list-style: none;
+
+ }
+
+ .menu-links {
+     color: var(--color-main);
+     font-size: var(--font-size-default);
+     font-family: var(--font-main);
+     font-weight: bolder;
+     padding: 5px;
+     text-transform: uppercase;
+
+ }
+
+
+ .menu-links:hover {
+     text-decoration: underline;
+ }
+
+
+ @media (max-width: 600px) {
+
+     .menu-lista {
+         display: flex;
+         flex-direction: column;
+     }
+ }

@@ -1,0 +1,15 @@
+@import url(/Style/root.css);
+
+.titulo {
+
+    text-align: center;
+}
+
+.titulo-link {
+
+    color: var(--color-main);
+    font-size: var(--font-size-title);
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-family: var(--font-main);
+}

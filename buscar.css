@@ -1,0 +1,52 @@
+@import url(/Style/root.css);
+
+.buscar {
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+    width: 30%;
+}
+
+.buscar-input {
+
+    width: 100%;
+    padding: 8px;
+    border-radius: 3px;
+    /*super esq, duper dir, inf dir, inf esq*/
+    display: flex;
+}
+
+
+
+.buscar-input::placeholder {
+    font-style: italic;
+    color: var(--color-txt);
+    opacity: 50%;
+}
+
+
+.fa-magnifying-glass {
+    color: rgba(0, 0, 0, 0.416);
+    position: absolute;
+    padding: 7px;
+    bottom: 0;
+    top: 0;
+    border-radius: 0 3px 3px 0;
+
+
+
+}
+
+.fa-magnifying-glass:hover {
+
+    color: black;
+    cursor: pointer;
+
+
+}
+
+.buscar-botao:hover {
+    background-color: rgba(112, 106, 106, 0.591);
+    color: white;
+
+}

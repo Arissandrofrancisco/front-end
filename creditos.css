@@ -1,0 +1,20 @@
+@import url(/Style/root.css);
+
+.creditos {
+    display: flex;
+    background: black;
+    justify-content: center;
+
+}
+
+.creditos-container {
+    display: flex;
+    margin: 18px;
+    border-bottom: 1px solid white;
+    padding: 4px;
+    background-color: black;
+}
+
+.creditos-link {
+    color: white;
+}

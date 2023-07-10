@@ -1,0 +1,58 @@
+:root {
+
+
+    @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=PT+Serif&family=Roboto&family=Work+Sans:wght@400;700&display=swap');
+
+
+
+
+    --font-main: 'Roboto', sans-serif;
+    --font-second: 'Baloo 2', cursive;
+    --font-menu: 'PT Serif', serif;
+    --font-txt: 'Work Sans', sans-serif;
+    --font-links: 'Work Sans', sans-serif;
+
+    --border: 1px solid black;
+    --border-radius: 3px;
+
+    --color-dbg-default: white;
+    --color-bg-main: #C9D3F2;
+    --color-bg-secundary: #03318ca5;
+    /*--color-bg-body: #C9D3F2;
+    --color-bg-categorias: #77B9F2;
+    --color-bg-credibilidade: #63B0F2;
+    --color-bg-rodape-links: #528DD9;
+    --color-bg-creditos: #03318ca5;*/
+    --color-bg-footer: red;
+
+
+    --color-main: #03318C;
+    --color-subs: #0442BF;
+    --color-default: white;
+    --color-txt: #00165a;
+    --color-links: #5a709d;
+
+
+    --color-hover: rgba(154, 154, 236, 0.292);
+
+    --font-size-default: 1em;
+    --font-size-main: 1.1em;
+    --font-size-subs: 1em;
+    --font-size-links: .9em;
+    --font-size-txt: 1em;
+    --font-size-icons: 3em;
+    --font-size-icons-social: 2em;
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,108 @@
+.explore-container {
+    display: flex;
+    margin: 15px auto;
+    width: 100vw;
+    justify-content: space-around;
+    align-items: start;
+
+
+}
+
+.explore-lista {
+    display: flex;
+    list-style: none;
+    width: 30%;
+}
+
+.explore-box {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.explore-box-titulo {
+    color: var(--color-subs);
+    font-size: var(--font-size-default);
+    font-weight: bolder;
+    font-family: var(--font-links);
+    text-transform: uppercase;
+}
+
+.explore-lista-link {
+    font-size: var(--font-size-links);
+    color: var(--color-links);
+    text-transform: capitalize;
+}
+
+.explore-lista-link:hover {
+    background-color: var(--color-hover);
+    color: var(--color-txt);
+}
+
+.bandeira {
+    width: 20%;
+    background-color: rgba(245, 248, 255, 0.997);
+}
+
+.bandeira-img {
+    width: 100%;
+}
+
+.media {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.fa-facebook,
+.fa-twitter,
+.fa-whatsapp,
+.fa-youtube,
+.fa-tiktok,
+.fa-instagram {
+    text-align: start;
+    font-size: 1.5rem;
+    padding: 5px;
+    color: var(--color-subs);
+}
+
+.fa-facebook:hover {
+    color: #4c7ce2;
+    cursor: pointer;
+}
+
+.fa-twitter:hover {
+    color: #00acee;
+    cursor: pointer;
+}
+
+.fa-whatsapp:hover {
+    color: #075e54;
+    cursor: pointer;
+}
+
+.fa-youtube:hover {
+    color: red;
+    cursor: pointer;
+}
+
+.fa-tiktok:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.fa-instagram:hover {
+    color: #e95950;
+    cursor: pointer;
+}
+
+.media-link {
+    color: var(--color-links);
+    font-size: 1rem;
+    padding-left: 10px;
+    text-align: start;
+}
+
+.media-link:hover {
+    color: var(--color-txt);
+}

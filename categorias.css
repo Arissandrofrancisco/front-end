@@ -1,0 +1,43 @@
+@import url(/Style/root.css);
+
+
+.categoria-container {
+
+    padding: 24px;
+}
+
+.categoria-titulo {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.categoria-titulo-link {
+    font-size: var(--font-size-main);
+    color: var(--color-subs);
+    font-family: var(--font-main);
+
+}
+
+.categorias-lista {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+.categorias-lista-itens {
+    padding: 0 4px;
+}
+
+.categorias-links {
+    color: var(--color-links);
+    font-size: var(--font-size-links);
+    font-family: var(--font-links);
+    text-transform: capitalize;
+}
+
+.categorias-links:hover {
+    text-decoration: underline;
+    color: var(--color-txt);
+    background-color: var(--color-hover);
+}
